@@ -1,0 +1,22 @@
+{
+  "name": "arkheia-agent",
+  "version": "0.1.0",
+  "description": "AC-2(3) diagnostic reasoning + governance agent (modeling mode only)",
+  "main": "dist/api/server.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/api/server.js",
+    "test": "tsc --outDir dist-test --target ES2022 --module commonjs --moduleResolution node --esModuleInterop --skipLibCheck src/contracts/*.ts src/engines/*.ts src/capabilities/*.ts src/tests/*.ts && node dist-test/tests/pipeline.test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
