@@ -1,0 +1,92 @@
+test_audit_is_bounded_and_never_has_plaintext_under_fuzz (tests.test_scrub_middleware.GateFlow.test_audit_is_bounded_and_never_has_plaintext_under_fuzz) ... ok
+test_dispatch_copy_is_wiped_after_the_call (tests.test_scrub_middleware.GateFlow.test_dispatch_copy_is_wiped_after_the_call) ... ok
+test_dispatch_requires_matching_tenant_and_tool_context (tests.test_scrub_middleware.GateFlow.test_dispatch_requires_matching_tenant_and_tool_context) ... ok
+test_handler_failure_still_consumes_the_use_and_leaks_nothing (tests.test_scrub_middleware.GateFlow.test_handler_failure_still_consumes_the_use_and_leaks_nothing) ... ok
+test_handler_result_contract (tests.test_scrub_middleware.GateFlow.test_handler_result_contract) ... ok
+test_handles_in_keys_are_refused (tests.test_scrub_middleware.GateFlow.test_handles_in_keys_are_refused) ... ok
+test_inbound_raw_known_secret_is_replaced_with_handle_before_detgov_and_audit (tests.test_scrub_middleware.GateFlow.test_inbound_raw_known_secret_is_replaced_with_handle_before_detgov_and_audit) ... ok
+test_invalid_tool_names_are_audited_without_crashing (tests.test_scrub_middleware.GateFlow.test_invalid_tool_names_are_audited_without_crashing) ... ok
+test_leak_policy_reject (tests.test_scrub_middleware.GateFlow.test_leak_policy_reject) ... ok
+test_lease_mode_gives_wipeable_buffers_and_refuses_embedded_handles (tests.test_scrub_middleware.GateFlow.test_lease_mode_gives_wipeable_buffers_and_refuses_embedded_handles) ... ok
+test_malformed_requests (tests.test_scrub_middleware.GateFlow.test_malformed_requests) ... ok
+test_result_scrubbing_covers_nested_encoded_and_unknown_secrets (tests.test_scrub_middleware.GateFlow.test_result_scrubbing_covers_nested_encoded_and_unknown_secrets) ... ok
+test_sanitize_helper_for_llm_facing_text (tests.test_scrub_middleware.GateFlow.test_sanitize_helper_for_llm_facing_text) ... ok
+test_unknown_credentials_are_redacted_not_forwarded (tests.test_scrub_middleware.GateFlow.test_unknown_credentials_are_redacted_not_forwarded) ... ok
+test_use_counts_one_per_distinct_handle_per_call_and_only_on_dispatch (tests.test_scrub_middleware.GateFlow.test_use_counts_one_per_distinct_handle_per_call_and_only_on_dispatch) ... ok
+test_benign_text_is_untouched (tests.test_scrub_middleware.Scrubbing.test_benign_text_is_untouched) ... ok
+test_depth_and_size_limits (tests.test_scrub_middleware.Scrubbing.test_depth_and_size_limits) ... ok
+test_exact_depth_and_sensitive_value_length_boundaries (tests.test_scrub_middleware.Scrubbing.test_exact_depth_and_sensitive_value_length_boundaries) ... ok
+test_input_not_mutated_and_non_json_rejected (tests.test_scrub_middleware.Scrubbing.test_input_not_mutated_and_non_json_rejected) ... ok
+test_keyed_values (tests.test_scrub_middleware.Scrubbing.test_keyed_values) ... ok
+test_keys_are_scrubbed_and_collisions_resolved (tests.test_scrub_middleware.Scrubbing.test_keys_are_scrubbed_and_collisions_resolved) ... ok
+test_known_secret_in_every_encoding_becomes_the_handle (tests.test_scrub_middleware.Scrubbing.test_known_secret_in_every_encoding_becomes_the_handle) ... ok
+test_longer_variants_replace_before_shorter (tests.test_scrub_middleware.Scrubbing.test_longer_variants_replace_before_shorter) ... ok
+test_other_tenants_secrets_are_not_touched_or_revealed (tests.test_scrub_middleware.Scrubbing.test_other_tenants_secrets_are_not_touched_or_revealed) ... ok
+test_pathological_inputs_run_in_bounded_time (tests.test_scrub_middleware.Scrubbing.test_pathological_inputs_run_in_bounded_time) ... ok
+test_pattern_detection (tests.test_scrub_middleware.Scrubbing.test_pattern_detection) ... ok
+test_scan_buffers_are_wiped (tests.test_scrub_middleware.Scrubbing.test_scan_buffers_are_wiped) ... ok
+test_secret_with_special_characters_json_and_url_forms (tests.test_scrub_middleware.Scrubbing.test_secret_with_special_characters_json_and_url_forms) ... ok
+test_short_secrets_are_not_stored (tests.test_scrub_middleware.Scrubbing.test_short_secrets_are_not_stored) ... ok
+test_cross_tenant_handler_namespaces (tests.test_tenancy.Registration.test_cross_tenant_handler_namespaces) ... ok
+test_signature_is_mandatory_and_keys_are_per_tenant (tests.test_tenancy.Registration.test_signature_is_mandatory_and_keys_are_per_tenant) ... ok
+test_tampered_policy_cannot_register (tests.test_tenancy.Registration.test_tampered_policy_cannot_register) ... /workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/custos/tests/test_tenancy.py:54: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/custos-test-1xdo5abc/policy.json' mode='r' encoding='utf-8'>
+  text = open(p).read().replace('"allowlist": [', '"allowlist": ["os.fork", ')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/custos/tests/test_tenancy.py:55: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/custos-test-1xdo5abc/policy.json' mode='w' encoding='utf-8'>
+  open(p, "w").write(text)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_validation (tests.test_tenancy.Registration.test_validation) ... ok
+test_failed_rotation_changes_nothing (tests.test_tenancy.Rotation.test_failed_rotation_changes_nothing) ... ok
+test_grace_edges_and_expired_previous_keys_are_pruned (tests.test_tenancy.Rotation.test_grace_edges_and_expired_previous_keys_are_pruned) ... ok
+test_grace_window_accepts_previous_key_until_it_expires (tests.test_tenancy.Rotation.test_grace_window_accepts_previous_key_until_it_expires) ... ok
+test_hooks_run_after_swap_and_errors_are_isolated (tests.test_tenancy.Rotation.test_hooks_run_after_swap_and_errors_are_isolated) ... ok
+test_loosened_policy_does_not_resurrect_unregistered_tools (tests.test_tenancy.Rotation.test_loosened_policy_does_not_resurrect_unregistered_tools) ... ok
+test_no_downtime_under_concurrent_traffic_and_rotation (tests.test_tenancy.Rotation.test_no_downtime_under_concurrent_traffic_and_rotation) ... ok
+test_policy_reload_swaps_and_bumps_version (tests.test_tenancy.Rotation.test_policy_reload_swaps_and_bumps_version) ... ok
+test_revoke_previous_keys_is_immediate (tests.test_tenancy.Rotation.test_revoke_previous_keys_is_immediate) ... ok
+test_rotating_one_tenant_never_touches_another (tests.test_tenancy.Rotation.test_rotating_one_tenant_never_touches_another) ... ok
+test_rotation_with_resigned_policy_swaps_atomically (tests.test_tenancy.Rotation.test_rotation_with_resigned_policy_swaps_atomically) ... ok
+test_rotation_without_policy_keeps_router_and_governs_next_reload (tests.test_tenancy.Rotation.test_rotation_without_policy_keeps_router_and_governs_next_reload) ... ok
+test_tightened_policy_drops_handlers_fail_closed (tests.test_tenancy.Rotation.test_tightened_policy_drops_handlers_fail_closed) ... ok
+test_capacity_accounting_survives_revocations (tests.test_vault.Boundaries.test_capacity_accounting_survives_revocations) ... ok
+test_lease_exit_does_not_swallow_exceptions_and_repr_reflects_state (tests.test_vault.Boundaries.test_lease_exit_does_not_swallow_exceptions_and_repr_reflects_state) ... ok
+test_minimum_length_secret_is_still_scrubbed (tests.test_vault.Boundaries.test_minimum_length_secret_is_still_scrubbed) ... ok
+test_tools_all_must_be_valid (tests.test_vault.Boundaries.test_tools_all_must_be_valid) ... ok
+test_ttl_and_use_bounds (tests.test_vault.Boundaries.test_ttl_and_use_bounds) ... ok
+test_allowed_call_dispatches_through_detgov_and_injects_only_at_the_boundary (tests.test_vault.FirewallIntegration.test_allowed_call_dispatches_through_detgov_and_injects_only_at_the_boundary) ... ok
+test_detgov_denials_are_unchanged_and_never_consume_a_use (tests.test_vault.FirewallIntegration.test_detgov_denials_are_unchanged_and_never_consume_a_use) ... ok
+test_firewall_sanitisers_remain_available_per_tenant (tests.test_vault.FirewallIntegration.test_firewall_sanitisers_remain_available_per_tenant) ... ok
+test_gate_uses_a_real_detgov_firewall (tests.test_vault.FirewallIntegration.test_gate_uses_a_real_detgov_firewall) ... ok
+test_handler_not_callable_outside_the_gate (tests.test_vault.FirewallIntegration.test_handler_not_callable_outside_the_gate) ... ok
+test_params_deny_rules_still_apply_with_handles_present (tests.test_vault.FirewallIntegration.test_params_deny_rules_still_apply_with_handles_present) ... ok
+test_tenants_have_separate_handlers_and_policies (tests.test_vault.FirewallIntegration.test_tenants_have_separate_handlers_and_policies) ... ok
+test_unknown_tenant_and_missing_handler (tests.test_vault.FirewallIntegration.test_unknown_tenant_and_missing_handler) ... ok
+test_failed_cross_tenant_attempt_consumes_nothing (tests.test_vault.TenantBoundary.test_failed_cross_tenant_attempt_consumes_nothing) ... ok
+test_gate_raises_isolation_error_for_foreign_handle (tests.test_vault.TenantBoundary.test_gate_raises_isolation_error_for_foreign_handle) ... ok
+test_isolation_in_audit_and_listing (tests.test_vault.TenantBoundary.test_isolation_in_audit_and_listing) ... ok
+test_tenant_a_cannot_resolve_tenant_b_handle (tests.test_vault.TenantBoundary.test_tenant_a_cannot_resolve_tenant_b_handle) ... ok
+test_unknown_and_malformed_handles_are_not_isolation_errors (tests.test_vault.TenantBoundary.test_unknown_and_malformed_handles_are_not_isolation_errors) ... ok
+test_concurrent_leases_never_exceed_max_uses (tests.test_vault.TtlAndCounts.test_concurrent_leases_never_exceed_max_uses) ... ok
+test_expired_and_exhausted_secrets_remain_scrubbable_until_purged (tests.test_vault.TtlAndCounts.test_expired_and_exhausted_secrets_remain_scrubbable_until_purged) ... ok
+test_invocation_exhaustion (tests.test_vault.TtlAndCounts.test_invocation_exhaustion) ... ok
+test_peek_does_not_consume (tests.test_vault.TtlAndCounts.test_peek_does_not_consume) ... ok
+test_tool_binding (tests.test_vault.TtlAndCounts.test_tool_binding) ... ok
+test_ttl_expiry (tests.test_vault.TtlAndCounts.test_ttl_expiry) ... ok
+test_bytearray_input_is_wiped_after_sealing (tests.test_vault.ZeroLeakage.test_bytearray_input_is_wiped_after_sealing) ... ok
+test_bytes_and_unicode_secrets_roundtrip (tests.test_vault.ZeroLeakage.test_bytes_and_unicode_secrets_roundtrip) ... ok
+test_capacity_limits (tests.test_vault.ZeroLeakage.test_capacity_limits) ... ok
+test_close_erases_and_disables (tests.test_vault.ZeroLeakage.test_close_erases_and_disables) ... ok
+test_handle_format_is_cst_sec_uuid4 (tests.test_vault.ZeroLeakage.test_handle_format_is_cst_sec_uuid4) ... ok
+test_handles_never_look_like_card_numbers_to_detgov (tests.test_vault.ZeroLeakage.test_handles_never_look_like_card_numbers_to_detgov) ... ok
+test_lease_buffer_is_zeroed_and_unusable_after_close (tests.test_vault.ZeroLeakage.test_lease_buffer_is_zeroed_and_unusable_after_close) ... ok
+test_plaintext_not_stored_in_clear_and_repr_hides_everything (tests.test_vault.ZeroLeakage.test_plaintext_not_stored_in_clear_and_repr_hides_everything) ... ok
+test_revoke_and_purge (tests.test_vault.ZeroLeakage.test_revoke_and_purge) ... ok
+test_sealed_entry_swap_detected (tests.test_vault.ZeroLeakage.test_sealed_entry_swap_detected) ... ok
+test_store_validation (tests.test_vault.ZeroLeakage.test_store_validation) ... ok
+test_view_is_read_only (tests.test_vault.ZeroLeakage.test_view_is_read_only) ... ok
+
+----------------------------------------------------------------------
+Ran 81 tests in 3.074s
+
+OK

@@ -1,0 +1,243 @@
+test_canonical_rejects_any_non_string_key (tests.test_boundaries.CryptoBoundaries.test_canonical_rejects_any_non_string_key) ... ok
+test_noncanonical_y_is_rejected (tests.test_boundaries.CryptoBoundaries.test_noncanonical_y_is_rejected) ... ok
+test_point_equality_needs_both_coordinates (tests.test_boundaries.CryptoBoundaries.test_point_equality_needs_both_coordinates) ... ok
+test_read_limited_exact_limit (tests.test_boundaries.CryptoBoundaries.test_read_limited_exact_limit) ... /workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_boundaries.py:42: ResourceWarning: unclosed file <_io.BufferedWriter name='/tmp/tmpet0dslsd/f'>
+  open(p, "wb").write(b"x" * 10)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_boundaries.py:44: ResourceWarning: unclosed file <_io.BufferedWriter name='/tmp/tmpet0dslsd/f'>
+  open(p, "wb").write(b"x" * 11)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_audit_keeps_name_up_to_128_chars (tests.test_boundaries.FirewallBoundaries.test_audit_keeps_name_up_to_128_chars) ... ok
+test_endpoint_guards_catch_each_smuggling_trick (tests.test_boundaries.RouterBoundaries.test_endpoint_guards_catch_each_smuggling_trick) ... ok
+test_list_depth_boundary (tests.test_boundaries.RouterBoundaries.test_list_depth_boundary) ... ok
+test_os_token_alone_is_not_spawn (tests.test_boundaries.RouterBoundaries.test_os_token_alone_is_not_spawn) ... ok
+test_pan_length_boundaries (tests.test_boundaries.RouterBoundaries.test_pan_length_boundaries) ... ok
+test_policy_limits (tests.test_boundaries.RouterBoundaries.test_policy_limits) ... /workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_boundaries.py:103: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5qctrwqi/p.json' mode='w' encoding='utf-8'>
+  json.dump({"policy_version": 1, **kw}, open(p, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_boundaries.py:103: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp1kpobk1u/p.json' mode='w' encoding='utf-8'>
+  json.dump({"policy_version": 1, **kw}, open(p, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_boundaries.py:103: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpvlqg0qol/p.json' mode='w' encoding='utf-8'>
+  json.dump({"policy_version": 1, **kw}, open(p, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_boundaries.py:103: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpb11uqnzp/p.json' mode='w' encoding='utf-8'>
+  json.dump({"policy_version": 1, **kw}, open(p, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_boundaries.py:103: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp2xw0s8bo/p.json' mode='w' encoding='utf-8'>
+  json.dump({"policy_version": 1, **kw}, open(p, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_boundaries.py:103: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp1wxd98vj/p.json' mode='w' encoding='utf-8'>
+  json.dump({"policy_version": 1, **kw}, open(p, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_boundaries.py:103: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpfru5q0cv/p.json' mode='w' encoding='utf-8'>
+  json.dump({"policy_version": 1, **kw}, open(p, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_boundaries.py:103: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp0d3gp3ci/p.json' mode='w' encoding='utf-8'>
+  json.dump({"policy_version": 1, **kw}, open(p, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_boundaries.py:103: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpv__fe68z/p.json' mode='w' encoding='utf-8'>
+  json.dump({"policy_version": 1, **kw}, open(p, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_boundaries.py:103: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp2xodsbsb/p.json' mode='w' encoding='utf-8'>
+  json.dump({"policy_version": 1, **kw}, open(p, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_boundaries.py:103: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmprx98emab/p.json' mode='w' encoding='utf-8'>
+  json.dump({"policy_version": 1, **kw}, open(p, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_string_size_boundary (tests.test_boundaries.RouterBoundaries.test_string_size_boundary) ... ok
+test_unexpected_internal_error_fails_closed (tests.test_boundaries.RouterBoundaries.test_unexpected_internal_error_fails_closed) ... ok
+test_key_order_does_not_matter (tests.test_crypto.Canonical.test_key_order_does_not_matter) ... ok
+test_rejections (tests.test_crypto.Canonical.test_rejections) ... ok
+test_sorted_compact_utf8 (tests.test_crypto.Canonical.test_sorted_compact_utf8) ... ok
+test_strict_loader (tests.test_crypto.Canonical.test_strict_loader) ... ok
+test_cross_check_with_cryptography_library_if_installed (tests.test_crypto.Ed25519.test_cross_check_with_cryptography_library_if_installed) ... ok
+test_pubkey_hex_parsing (tests.test_crypto.Ed25519.test_pubkey_hex_parsing) ... ok
+test_random_roundtrip_and_single_bit_flips (tests.test_crypto.Ed25519.test_random_roundtrip_and_single_bit_flips) ... ok
+test_rfc8032_test3_with_derived_key (tests.test_crypto.Ed25519.test_rfc8032_test3_with_derived_key) ... ok
+test_rfc8032_vectors_verify_and_reproduce (tests.test_crypto.Ed25519.test_rfc8032_vectors_verify_and_reproduce) ... ok
+test_strictness (tests.test_crypto.Ed25519.test_strictness) ... ok
+test_every_tamper_is_rejected (tests.test_crypto.PolicySignature.test_every_tamper_is_rejected) ... /workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_crypto.py:134: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/detgov-test-x77b4bso/policy.json' mode='r' encoding='utf-8'>
+  orig = open(p).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_crypto.py:135: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/detgov-test-x77b4bso/policy.json.sig' mode='r' encoding='utf-8'>
+  sig = open(p + ".sig").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_crypto.py:140: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/detgov-test-x77b4bso/policy.json' mode='w' encoding='utf-8'>
+  open(p, "w").write(m)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_crypto.py:142: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/detgov-test-x77b4bso/policy.json' mode='w' encoding='utf-8'>
+  open(p, "w").write(orig)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_crypto.py:147: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/detgov-test-x77b4bso/policy.json.sig' mode='w' encoding='utf-8'>
+  open(p + ".sig", "w").write(bad_sig)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_explicit_sig_path (tests.test_crypto.PolicySignature.test_explicit_sig_path) ... ok
+test_never_raises (tests.test_crypto.PolicySignature.test_never_raises) ... /workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_crypto.py:155: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmprgtcxs2i/big.json' mode='w' encoding='utf-8'>
+  open(big, "w").write(" " * (C.MAX_POLICY_BYTES + 1))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_crypto.py:156: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmprgtcxs2i/big.json.sig' mode='w' encoding='utf-8'>
+  open(big + ".sig", "w").write("0" * 128)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_crypto.py:159: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmprgtcxs2i/dup.json' mode='w' encoding='utf-8'>
+  open(dup, "w").write('{"policy_version":1,"policy_version":1}')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_crypto.py:160: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmprgtcxs2i/dup.json.sig' mode='w' encoding='utf-8'>
+  open(dup + ".sig", "w").write(REF.sign(SK, C.canonical_json_bytes({"policy_version": 1})).hex())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_signature_covers_content_not_formatting (tests.test_crypto.PolicySignature.test_signature_covers_content_not_formatting) ... /workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_crypto.py:165: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/detgov-test-t6kgwwfb/policy.json' mode='r' encoding='utf-8'>
+  obj = json.load(open(p))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_crypto.py:166: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/detgov-test-t6kgwwfb/policy.json' mode='w' encoding='utf-8'>
+  json.dump(obj, open(p, "w"), separators=(",", ":"), sort_keys=True)     # reformat only
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_valid_with_noncanonical_file_layout_and_default_sig_path (tests.test_crypto.PolicySignature.test_valid_with_noncanonical_file_layout_and_default_sig_path) ... ok
+test_misc (tests.test_firewall.Claude.test_misc) ... ok
+test_strips_server_side_and_unlisted (tests.test_firewall.Claude.test_strips_server_side_and_unlisted) ... ok
+test_audit_log_has_no_values_and_is_bounded (tests.test_firewall.Execute.test_audit_log_has_no_values_and_is_bounded) ... ok
+test_constructor_variants (tests.test_firewall.Execute.test_constructor_variants) ... ok
+test_denied_requests_never_reach_handler (tests.test_firewall.Execute.test_denied_requests_never_reach_handler) ... ok
+test_dispatch_and_audit (tests.test_firewall.Execute.test_dispatch_and_audit) ... ok
+test_handler_gets_isolated_snapshot_so_check_equals_use (tests.test_firewall.Execute.test_handler_gets_isolated_snapshot_so_check_equals_use) ... ok
+test_handler_must_return_dict (tests.test_firewall.Execute.test_handler_must_return_dict) ... ok
+test_missing_handler_and_registration_rules (tests.test_firewall.Execute.test_missing_handler_and_registration_rules) ... ok
+test_thread_safe_registration_and_execution (tests.test_firewall.Execute.test_thread_safe_registration_and_execution) ... ok
+test_toctou_params_mutated_by_another_thread_cannot_smuggle (tests.test_firewall.Execute.test_toctou_params_mutated_by_another_thread_cannot_smuggle) ... ok
+test_plain_declarations_and_wrappers (tests.test_firewall.Gemini.test_plain_declarations_and_wrappers) ... ok
+test_type_checks (tests.test_firewall.Gemini.test_type_checks) ... ok
+test_sanitized_tools_can_all_be_executed_when_registered (tests.test_firewall.Integration.test_sanitized_tools_can_all_be_executed_when_registered) ... ok
+test_underscore_names_are_not_overblocked (tests.test_firewall.Integration.test_underscore_names_are_not_overblocked) ... ok
+test_control_cases_are_allowed (tests.test_provenance.Provenance.test_control_cases_are_allowed) ... ok
+test_tc_prov_001_revoked_active_directory_account_denied_IC (tests.test_provenance.Provenance.test_tc_prov_001_revoked_active_directory_account_denied_IC) ... ok
+test_tc_prov_002_unmasked_pan_to_unapproved_endpoint_denied_IB (tests.test_provenance.Provenance.test_tc_prov_002_unmasked_pan_to_unapproved_endpoint_denied_IB) ... ok
+test_tc_prov_003_synthetic_media_metadata_collision_or_invalid_isrc_denied_IC (tests.test_provenance.Provenance.test_tc_prov_003_synthetic_media_metadata_collision_or_invalid_isrc_denied_IC) ... ok
+test_tc_prov_004_process_fork_spawn_denied_IG (tests.test_provenance.Provenance.test_tc_prov_004_process_fork_spawn_denied_IG) ... ok
+test_tc_prov_005_dynamic_code_compilation_eval_denied_IR (tests.test_provenance.Provenance.test_tc_prov_005_dynamic_code_compilation_eval_denied_IR) ... ok
+test_endpoint_matching_cannot_be_spoofed (tests.test_router.Boundary.test_endpoint_matching_cannot_be_spoofed) ... ok
+test_explicit_http_entry_and_port (tests.test_router.Boundary.test_explicit_http_entry_and_port) ... ok
+test_ipc_and_unix_sockets (tests.test_router.Boundary.test_ipc_and_unix_sockets) ... ok
+test_pan_detection (tests.test_router.Boundary.test_pan_detection) ... ok
+test_vendor_tools (tests.test_router.Boundary.test_vendor_tools) ... ok
+test_isrc (tests.test_router.Causal.test_isrc) ... ok
+test_revoked_entities_matching (tests.test_router.Causal.test_revoked_entities_matching) ... ok
+test_schema_override (tests.test_router.Causal.test_schema_override) ... ok
+test_params_not_mutated_and_key_order_irrelevant (tests.test_router.Determinism.test_params_not_mutated_and_key_order_irrelevant) ... ok
+test_policy_digest_is_formatting_independent (tests.test_router.Determinism.test_policy_digest_is_formatting_independent) ... /workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:269: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpdtogmtf0/policy.json' mode='w' encoding='utf-8'>
+  json.dump(POLICY, open(path, "w"), separators=(",", ":"), sort_keys=True)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_same_verdicts_across_hash_seeds_and_runs (tests.test_router.Determinism.test_same_verdicts_across_hash_seeds_and_runs) ... ok
+test_arbitrary_input_never_raises_and_unlisted_names_never_allowed (tests.test_router.Fuzz.test_arbitrary_input_never_raises_and_unlisted_names_never_allowed) ... ok
+test_benign_allowlisted_requests_are_not_blocked (tests.test_router.Fuzz.test_benign_allowlisted_requests_are_not_blocked) ... ok
+test_allowlist (tests.test_router.Governance.test_allowlist) ... ok
+test_limits_and_cycles (tests.test_router.Governance.test_limits_and_cycles) ... ok
+test_malformed (tests.test_router.Governance.test_malformed) ... ok
+test_none_params_means_empty (tests.test_router.Governance.test_none_params_means_empty) ... ok
+test_privilege_escalation (tests.test_router.Governance.test_privilege_escalation) ... ok
+test_spawn (tests.test_router.Governance.test_spawn) ... ok
+test_subclasses_rejected (tests.test_router.Governance.test_subclasses_rejected) ... ok
+test_invalid_policies (tests.test_router.Loading.test_invalid_policies) ... /workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpdptwiieg/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpr5ndh7iy/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp4rtqopv_/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmplqg8yetj/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpikltd2mw/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpiw4bcxdr/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpbyl7x1ac/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpcw361zz4/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmph5acmbud/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpio9ku4xe/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp6mhxuhh1/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp34j4i8xw/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpu_v2dfqx/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp56qegr_k/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpx6cz_pi0/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp16vps3bz/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp01vklzn_/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpnjnep7jv/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpg5uhe6p7/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:342: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpqgtmrty1/policy.json' mode='w' encoding='utf-8'>
+  json.dump(pol, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:349: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpgv9pc7s5/policy.json' mode='w' encoding='utf-8'>
+  open(path, "w").write(content)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:349: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpsxhodyua/policy.json' mode='w' encoding='utf-8'>
+  open(path, "w").write(content)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:349: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpopur4h9n/policy.json' mode='w' encoding='utf-8'>
+  open(path, "w").write(content)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:349: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpcp5jxw70/policy.json' mode='w' encoding='utf-8'>
+  open(path, "w").write(content)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:349: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmph_6v7wg0/policy.json' mode='w' encoding='utf-8'>
+  open(path, "w").write(content)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_minimal_policy_denies_everything_by_default (tests.test_router.Loading.test_minimal_policy_denies_everything_by_default) ... /workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:359: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmprg9jcc8q/policy.json' mode='w' encoding='utf-8'>
+  json.dump({"policy_version": 1}, open(path, "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_signature_enforcement (tests.test_router.Loading.test_signature_enforcement) ... ok
+test_tampered_policy_rejected_when_enforced (tests.test_router.Loading.test_tampered_policy_rejected_when_enforced) ... /workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:326: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/detgov-test-5zlb0vxn/policy.json' mode='r' encoding='utf-8'>
+  text = open(p).read().replace('"allowlist": [', '"allowlist": [\n    "os.fork",')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/detgov/tests/test_router.py:327: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/detgov-test-5zlb0vxn/policy.json' mode='w' encoding='utf-8'>
+  open(p, "w").write(text)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_violation_object (tests.test_router.Loading.test_violation_object) ... ok
+test_fixed_precedence_B_C_R_T_G (tests.test_router.Ordering.test_fixed_precedence_B_C_R_T_G) ... ok
+test_hard_rules_ignore_allowlist (tests.test_router.Ordering.test_hard_rules_ignore_allowlist) ... ok
+test_rationale_never_echoes_values (tests.test_router.RationaleHygiene.test_rationale_never_echoes_values) ... ok
+test_dynamic_code (tests.test_router.Routing.test_dynamic_code) ... ok
+test_always_blocked (tests.test_router.Temporal.test_always_blocked) ... ok
+test_background_requires_meter (tests.test_router.Temporal.test_background_requires_meter) ... ok
+
+----------------------------------------------------------------------
+Ran 79 tests in 2.032s
+
+OK
