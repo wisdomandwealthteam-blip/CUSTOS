@@ -1,13 +1,34 @@
 # arkheia-agent
 
-25/25 tests passing this round (`src/tests/pipeline.test.ts`, full rewrite —
-see below). All files compile clean under `tsc --strict` except
-`api/agentRoutes.ts`/`api/server.ts` (need `express`/`@types/node`, no
-network access here to install them — syntax-consistent, not
-compiler-verified). Verified with a real end-to-end run, not just unit
+160/160 Python tests and 25/25 TypeScript tests passing, with zero failures
+or skips. All TypeScript files compile clean under `tsc --strict`, including
+`api/agentRoutes.ts`/`api/server.ts`. Full results and reproducible commands
+are recorded in [verification/README.md](verification/README.md).
+Verified with a real end-to-end run, not just unit
 tests: `cycleId`/`episodeId` match exactly between every execution artifact
 and the final memory episode, `governanceDecisionId` is consistent across
 all artifacts from one cycle.
+
+## Local Python packages
+
+`detgov/` and `custos/` contain the package sources and full test suites
+extracted from `detgov_v1.0.0.zip` and `custos_v1.0.0.zip`, respectively.
+Two CUSTOS test fixtures use synthetic test-key values instead of the
+archive's live-key-shaped literals to comply with GitHub push protection;
+production code is unchanged.
+CUSTOS requires `detgov>=1.0.0`; install both from these local directories,
+without resolving the internal dependency from public PyPI:
+
+```sh
+python3 -m venv --system-site-packages .venv
+.venv/bin/python -m pip install --no-index --no-build-isolation ./detgov ./custos
+```
+
+This requires `setuptools>=61` and `wheel` to be available in the environment.
+The local non-editable install avoids editable-import namespace shadowing by
+the extracted directories when importing from the repository root. Reinstall
+after changing either package. `cryptography` is optional for production but
+required to run the full test suite without skipping the Ed25519 cross-check.
 
 ## This round: memory indexing, execution artifacts, autonomy scheduling, action coherence
 

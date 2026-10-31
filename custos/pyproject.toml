@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "custos"
+version = "1.0.0"
+description = "Credential custody and zero-knowledge broker for DetGov-governed tool calls"
+requires-python = ">=3.9"
+# Pure standard library itself; depends only on the sibling stdlib-only package detgov (used by custos.core.tenancy / middleware).
+dependencies = ["detgov>=1.0.0"]
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+include = ["custos*"]

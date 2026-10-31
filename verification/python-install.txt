@@ -1,0 +1,26 @@
+Processing ./detgov
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Processing ./custos
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: detgov, custos
+  Building wheel for detgov (pyproject.toml): started
+  Building wheel for detgov (pyproject.toml): finished with status 'done'
+  Created wheel for detgov: filename=detgov-1.0.0-py3-none-any.whl size=16143 sha256=3d47301b504696acea8848e68883f0cd1734f49a98fa9357d294cef9c69a5a35
+  Stored in directory: /tmp/pip-ephem-wheel-cache-9noscmf8/wheels/a7/a5/fd/1c4b2310f961efc3d5eb9e1c49d59eab6729ac14cbef487122
+  Building wheel for custos (pyproject.toml): started
+  Building wheel for custos (pyproject.toml): finished with status 'done'
+  Created wheel for custos: filename=custos-1.0.0-py3-none-any.whl size=18136 sha256=7eab4045d91fd559800cd272c516f4d13a5be0eba9c8d95d979720dc0a91bf19
+  Stored in directory: /tmp/pip-ephem-wheel-cache-9noscmf8/wheels/3b/ce/b6/2758794de12829ddc866734b550ace83585a4632413744161e
+Successfully built detgov custos
+Installing collected packages: detgov, custos
+  Attempting uninstall: detgov
+    Found existing installation: detgov 1.0.0
+    Uninstalling detgov-1.0.0:
+      Successfully uninstalled detgov-1.0.0
+  Attempting uninstall: custos
+    Found existing installation: custos 1.0.0
+    Uninstalling custos-1.0.0:
+      Successfully uninstalled custos-1.0.0
+Successfully installed custos-1.0.0 detgov-1.0.0

@@ -1,0 +1,6 @@
+detgov==1.0.0: local origin ./detgov
+Import resolves to: /workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/.venv/lib/python3.12/site-packages/detgov/__init__.py
+Declared dependencies: []
+custos==1.0.0: local origin ./custos
+Import resolves to: /workspaces/CUSTOS/wisdomandwealthteam-blip/CUSTOS/.venv/lib/python3.12/site-packages/custos/__init__.py
+Declared dependencies: ['detgov >=1.0.0']

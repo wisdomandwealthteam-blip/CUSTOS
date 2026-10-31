@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "detgov"
+version = "1.0.0"
+description = "Deterministic governance gate: Ed25519-verified policy, structural invariant router, tool firewall"
+requires-python = ">=3.9"
+dependencies = []
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+include = ["detgov*"]

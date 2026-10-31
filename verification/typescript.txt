@@ -1,0 +1,31 @@
+
+> arkheia-agent@0.1.0 test
+> tsc --outDir dist-test --target ES2022 --module commonjs --moduleResolution node --esModuleInterop --skipLibCheck src/contracts/*.ts src/engines/*.ts src/capabilities/*.ts src/tests/*.ts && node dist-test/tests/pipeline.test.js
+
+ok - identityGovernance: employee-category account gets real trigger names
+ok - privilegeGovernance: privilegedAccountFlag=true triggers privileged_account
+ok - trustDcGovernance: trust_degraded / dc_replication_failure from real trustRules
+ok - governanceEngine: produces a governanceDecisionId
+ok - governanceEngine: allow vs block split unchanged
+ok - executionEngine: allowed action produces a FLAT disable_account_model artifact
+ok - executionEngine: blocked action produces its OWN blocked_action_model artifact (not a summary)
+ok - executionEngine: multiple blocked actions produce multiple artifacts, one each
+ok - executionEngine: zero triggers -> exactly one no_action_model artifact
+ok - executionEngine: artifactIds are unique even for same-millisecond artifacts
+ok - aggregateEvidence: extracts targetId/reason/evidence directly from flat artifacts
+ok - memoryEngine: identityAxis excludes null targetId (no_action_model)
+ok - memoryEngine: triggerAxis excludes the no_action placeholder reason
+ok - memoryEngine: actionAxis maps artifactType to the action vocabulary
+ok - memoryEngine: no_action_model alone yields actionAxis=["no_action"]
+ok - memoryEngine: artifactAxis lists distinct artifactTypes
+ok - memoryEngine: riskAxis is empty before finalize, populated after
+ok - memoryEngine: cycleId/episodeId passed in are reused verbatim, not regenerated
+ok - autonomyEngine: riskDetected requires triggerAxis intersecting scanFor specifically
+ok - autonomyEngine: riskDetected true when triggerAxis has a scanFor member -> schedules
+ok - autonomyEngine: no_action cycle (artifactProduced=true but riskDetected=false) does NOT schedule
+ok - autonomyEngine: activatedCapabilities derived from triggerAxis via the category lookup
+ok - cycleIdentity: generates distinct cycleId and episodeId strings
+ok - full pipeline: cycleId/episodeId match between execution artifacts and the final memory episode
+ok - full pipeline: deterministic modulo ids/timestamps
+
+25 passed, 0 failed
